@@ -10,7 +10,89 @@ We schrijven een applicatie die op basis van gegevens over de promotie en aankoo
 ### Invoer
 
 De volgende vier getallen, elk op een afzonderlijke regel:
+De krekel als thermometer
+cricket
 
+Krekels produceren hun kenmerkende tjirp door met hun vleugels langs elkaar te strijken. Het tellen van deze tjirpgeluiden kan gebruikt worden om de temperatuur te schatten. Dit verband werd in 1897 door de natuurkundige Amos Dolbear beschreven: hoe hoger de temperatuur, hoe sneller de krekels tjirpen. De zogenaamde wet van Dolbear geeft een formule om de temperatuur in graden Fahrenheit (F) te schatten op basis van het aantal gehoorde tjirps per minuut 
+N
+60
+N 
+60
+​
+ :
+
+T
+F
+=
+50
++
+N
+60
+−
+40
+4
+T 
+F
+​
+ =50+ 
+4
+N 
+60
+​
+ −40
+​
+ 
+
+Deze formule kan ook herschreven worden om de temperatuur in graden Celsius (°C) te bepalen:
+
+T
+C
+=
+10
++
+N
+60
+−
+40
+7
+T 
+C
+​
+ =10+ 
+7
+N 
+60
+​
+ −40
+​
+ 
+
+Invoer
+Het aantal waargenomen tjirps per minuut 
+N
+60
+∈
+N
+N 
+60
+​
+ ∈N.
+
+Uitvoer
+Een regel die de temperatuur in graden Fahrenheit aangeeft, en een tweede regel die dezelfde temperatuur weergeeft, uitgedrukt in graden Celsius:
+
+temperatuur (Fahrenheit): TF
+temperatuur (Celsius): TC
+
+Voorbeeld
+Invoer:
+
+43
+
+Uitvoer:
+
+temperatuur (Fahrenheit): 50.75
+temperatuur (Celsius): 10.428571428571429
 -   het aantal gekochte stuks van een bepaald product (natuurlijk getal)
     
 -   de kostprijs per stuk van het product (reëel getal)
